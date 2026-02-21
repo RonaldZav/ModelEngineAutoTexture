@@ -17,7 +17,7 @@ Este plugin levanta un servidor HTTP ligero integrado que sirve el archivo `.zip
 1.  Descarga el archivo `.jar` de la sección de [Releases](https://github.com/ronaldzav/ModelEngineAutoTexture/releases) (o compílalo tú mismo).
 2.  Coloca el archivo en la carpeta `plugins` de tu servidor.
 3.  Reinicia el servidor.
-4.  Configura el plugin en `plugins/meat/config.yml`.
+4.  Configura el plugin en `plugins/ModelEngineAutoTexture/config.yml`.
 
 ## Configuración
 
