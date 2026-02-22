@@ -3,10 +3,12 @@ version: '1.0-SNAPSHOT'
 main: com.ronaldzav.modelEngineTextureAuto.ModelEngineTextureAuto
 api-version: '1.21'
 load: POSTWORLD
+softdepend:
+  - ItemsAdder
 commands:
   meat:
     description: Comando principal de ModelEngineAutoTexture
-    usage: /meat [reload|about]
+    usage: /meat [reload|zip|about]
     permission: meat.admin
     permission-message: No tienes permiso para usar este comando.
 permissions:

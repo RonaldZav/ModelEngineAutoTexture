@@ -10,4 +10,9 @@ resource-pack:
   send-hash: false # Comprueba la integridad del paquete.
   delay-ticks: 40 # Tiempo de espera entre que el jugador se une y el envio de paquete de texturas.
 
+integrations:
+  itemsadder:
+    enabled: false # Si esta activado, MEAT no sirve HTTP y en su lugar extrae el pack de ModelEngine en la carpeta de ItemsAdder.
+    target-path: "plugins/ItemsAdder/contents/modelengine/resourcepack" # Carpeta destino donde se extrae el zip de ModelEngine.
+
 debug: false # Depuracion util durante el desarrollo. Activalo para obtener logs completos si planeas reportar algun bug.

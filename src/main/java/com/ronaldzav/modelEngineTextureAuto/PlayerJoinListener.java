@@ -14,6 +14,9 @@ public class PlayerJoinListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
+        // En modo ItemsAdder, el propio ItemsAdder gestiona el envio del resource pack.
+        if (plugin.isItemsAdderIntegration()) return;
+
         // Delay sending the resource pack slightly to avoid conflicts with other plugins or login processes
         plugin.getServer().getScheduler().runTaskLater(plugin, () -> {
             String resourcePackUrl = plugin.getResourcePackUrl();
